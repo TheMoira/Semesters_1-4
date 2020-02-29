@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(vtest)
+include_directories(include)
+add_compile_options(-Wall -g)
+set(SOURCES vtest.cpp AccumulatingVisitor.cpp PrintingVisitor.cpp)
+add_executable(vtest ${SOURCES})

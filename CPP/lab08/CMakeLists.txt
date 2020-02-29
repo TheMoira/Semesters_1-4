@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(lab08)
+include_directories(include)
+add_compile_options(-Wall -g)
+set(SOURCES Main.cpp ExceptType.cpp)
+add_executable(lab08 ${SOURCES})

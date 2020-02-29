@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(printer)
+include_directories(include)
+add_compile_options(-Wall -g)
+set(SOURCES printtest.cpp ConsolePrinter.cpp)
+add_executable(printer ${SOURCES})
