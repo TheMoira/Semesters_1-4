@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(stan)
+include_directories(include)
+add_compile_options(-Wall -g)
+set(SOURCES Main.cpp MaszynaStanow.cpp Stan.cpp)
+add_executable(stan ${SOURCES})
